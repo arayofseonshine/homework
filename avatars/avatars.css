@@ -1,0 +1,17 @@
+.avatar-container img {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+}
+
+.avatar-container .status on {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
