@@ -1,17 +1,50 @@
-.avatar-container img {
-    display: flex;
-    justify-content: space-between;
-    border-radius: 50%;
-    width: 64px;
-    height: 64px;
+
+.avatars1{
+	display: flex;
+	justify-content: center;
 }
 
-.avatar-container .status on {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
+.avatars2{
+display: flex;
+justify-content: center;
+}
+
+.avatars1 img {
+border-radius: 50%;
+width: 64px;
+height: 64px;
+	margin: 10px;
+}
+
+.avatars2 img {
+border-radius: 50%;
+width: 64px;
+height: 64px;
+margin: 10px;
+}
+
+.avatar{
+position: relative;
+display: inline-block;
+}
+
+.status{
+position: absolute;
+right: 3px;
+bottom: 10px;
+width: 17px;
+height: 17px;
+border-radius: 50%;
+border: medium solid white;
+}
+
+
+
+.status.on{
+background-color: #4CFE88;
+}
+
+.status.off {
+background-color: #DBDBDB;
 }
 
